@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+
+<body class="text-light">
+
+  <div id="preloader">
+    <div>
+      <img src="assets/img/infinite-spinner.svg" alt="" style="width: 200px;">
+      <h1>Loading ...</h1>
+    </div>
+  </div>
+
+
+  <div class="main-wrapper">
+
+    <!-- NAVBAR -->
+
+    <header class="cd-header">
+      <div class="header-wrapper">
+        <div class="logo-wrap">
+          <a href="#" class="hover-target"><span>Mr</span>Velsa</a>
+        </div>
+        <div class="nav-but-wrap">
+          <div class="menu-icon hover-target">
+            <span class="menu-icon__line menu-icon__line-left"></span>
+            <span class="menu-icon__line menu-icon__line-middle"></span>
+            <span class="menu-icon__line menu-icon__line-right"></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="nav">
+      <div class="nav__content">
+        <ul class="nav__list">
+          <li class="nav__list-item" data-sound="assets/audios/nav.mp3"><a href="#home" class="hover-target">Home</a>
+          </li>
+          <li class="nav__list-item" data-sound="assets/audios/nav.mp3"><a href="#quote" class="hover-target">Quotes</a>
+          </li>
+          <li class="nav__list-item" data-sound="assets/audios/nav.mp3"><a href="#about" class="hover-target">About</a>
+          </li>
+          <li class="nav__list-item" data-sound="assets/audios/nav.mp3"><a href="#skills"
+              class="hover-target">Skills</a>
+          <li class="nav__list-item" data-sound="assets/audios/nav.mp3"><a href="#skills"
+              class="hover-target">Countdown</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <audio src="assets/audios/nav.mp3" class="d-none"></audio>
+
+
+
+    <!-- Main Content -->
+
+    <main class="main dark" id="home">
+      <div class="container">
+        <div class="content-wrapper">
+
+          <!-- Main title -->
+          <div class="main-title-wrapper hidden">
+            <p class="fs-4">Hello, I'm</p>
+            <h1 class="main-title matrix title" data-value="Batyr Velsahedov">Batyr Velsahedov</h1>
+            <p class="mb-2 fw-bold fs-3">Also known as <span class="highlight subtitle fs-2"> Velsa </span></p>
+            <p class="about-text">Infusing coding prowess with a dash of creative flair, fueled by my love for gaming
+              and
+              music, I sculpt
+              vibrant and one-of-a-kind web experiences that captivate and inspire.</p>
+          </div>
+          <!-- Main title -->
+
+          <!-- Main image -->
+          <div class="main-img hidden-down">
+            <img src="assets/img/main.png" alt="Batyr Velsahedov">
+          </div>
+          <!-- Main image -->
+
+        </div>
+      </div>
+    </main>
+
+  </div>
+
+  <section class="quote_generator text-black" id="qoute">
+    <div class="container">
+      <div class="text_box text-center">
+        <h3 class="title center black fs-4">Quote of this time</h3>
+        <div class="text center qoute fs-5 hidden-down"></div>
+        <em>
+          <p class="text center person fw-bold fs-4"></p>
+        </em>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- About-ME -->
+
+  <section class="about-me bg-dark" id="about">
+    <div class="container">
+      <div class="about-me-content">
+        <div class="d-flex justify-content-center about-me-img">
+          <img src="assets/img/little.png" alt="">
+        </div>
+        <h1 class="little glitch text-center hidden-down" data-text="About Me mb-4">About Me</h1>
+
+        <p class="little  fs-3 text-center text-light" style="font-weight: 500;">
+          Hi, I'm <span class="glitch-sm" data-text="Batyr Velsahedov">Batyr Velsahedov</span>, a passionate <span
+            class="glitch-sm" data-text="Full Stack Developer">Full Stack Developer</span> with a flair for creating
+          dynamic, user-friendly web applications. I started my programming journey in the summer of 2022, diving into
+          <span class="glitch-sm" data-text="HTML">HTML</span>, <span class="glitch-sm" data-text="CSS">CSS</span>,
+          <span class="glitch-sm" data-text="Bootsatrp">Bootstrap</span>, and
+          <span class="glitch-sm" data-text="JavaScript">JavaScript</span> to craft engaging UI experiences. For
+          <span class="glitch-sm" data-text="backend development">backend development</span>, I harness <span
+            class="glitch-sm" data-text="PHP">PHP</span> , <span class="glitch-sm" data-text="Laravel">Laravel</span>,
+          <span class="glitch-sm" data-text="MySQL">MySQL</span>, and <span class="glitch-sm" data-text="SQL">SQL</span>
+          to build robust solutions. Drawing inspiration from
+          <span class="glitch-sm" data-text="Figma">Figma</span>, I design and develop with a keen eye for detail and
+          usability. I thrive on
+          <span class="glitch-sm" data-text="learning new technologies">learning new technologies</span> to enhance my
+          skills and bring innovative projects to life. Let's collaborate and turn your ideas into reality!
+        </p>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Skill-Lab -->
+
+  <div class="skills-wrapper coc" id="skills">
+    <section class="skill-lab d-none" id="skill-lab">
+      <div class="skills-container coc-menu">
+        <h4 class="text-center">Let's upgrade my skills</h4>
+        <div class="container">
+          <!-- Skills displayed as square cards -->
+          <div class="row" id="skill-cards-container">
+            <!-- Add more skill cards as needed -->
+          </div>
+        </div>
+        <button id="hideBtn" class="upgrade-me-btn">Upgrade</button>
+      </div>
+    </section>
+
+    <!-- About Me -->
+    <section class="upgrade-skills">
+      <div class="container coc-menu pb-3">
+        <div class="text-center">
+          <h4 class="text-center coc-menu-top">
+            <span class="coc-menu-top-text">Let's upgrade my skills</span>
+          </h4>
+        </div>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <img src="assets/img/dante.png" alt="Your Photo" class="img-fluid smaller-img hero-card h-md-50">
+          </div>
+          <div class="col-md-8">
+            <div class="skills-container mt-4" id="skills-container">
+              <!-- Skills will be dynamically added here -->
+            </div>
+            <div class="text-center mt-3">
+              <button id="upgrade-all-btn" class="upgrade-btn"><span class="upgrade-text">Upgrade</span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <audio id="upgrade-sound" src="assets/audios/upgrade.mp3" style="display:none;"></audio>
+
+
+  <!-- COUNTDOWN -->
+
+
+
+  <section class="bg-dark py-5" id="countdown">
+    <div class="container ">
+      <h1 class="mb-4">Wait For <span>Me</span></h1>
+      <h4 class="text-center mb-4">I will return as soon as Possible. At the moment I'm in Army</h4>
+      <div class="countdown" data-target-date="2026-06-18 00:08:00"></div>
+    </div>
+  </section>
+
+
+
+  <!-- Contact -->
+
+
+  <section class="contact py-5">
+    <div class="container">
+      <h1 class="text-center">Contact</h1>
+      <div class="d-flex justify-content-center my-4">
+        <a href="https://www.instagram.com/mr_velsa?igsh=OWxlMXh1bXh5cTc4" class="nav-contact mx-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
+            viewBox="0 0 16 16">
+            <path
+              d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+          </svg></a>
+        <a href="t.me/Velsatm" class="nav-contact mx-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telegram"
+            viewBox="0 0 16 16">
+            <path
+              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09" />
+          </svg></a>
+        <a href="https://www.linkedin.com/in/velsa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          class="nav-contact mx-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin"
+            viewBox="0 0 16 16">
+            <path
+              d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+          </svg></a>
+        <a href="https://www.snapchat.com/add/velsa95?share_id=vjvr5zUJG7s&locale=en-US" class="nav-contact mx-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-snapchat"
+            viewBox="0 0 16 16">
+            <path
+              d="M15.943 11.526c-.111-.303-.323-.465-.564-.599a1 1 0 0 0-.123-.064l-.219-.111c-.752-.399-1.339-.902-1.746-1.498a3.4 3.4 0 0 1-.3-.531c-.034-.1-.032-.156-.008-.207a.3.3 0 0 1 .097-.1c.129-.086.262-.173.352-.231.162-.104.289-.187.371-.245.309-.216.525-.446.66-.702a1.4 1.4 0 0 0 .069-1.16c-.205-.538-.713-.872-1.329-.872a1.8 1.8 0 0 0-.487.065c.006-.368-.002-.757-.035-1.139-.116-1.344-.587-2.048-1.077-2.61a4.3 4.3 0 0 0-1.095-.881C9.764.216 8.92 0 7.999 0s-1.76.216-2.505.641c-.412.232-.782.53-1.097.883-.49.562-.96 1.267-1.077 2.61-.033.382-.04.772-.036 1.138a1.8 1.8 0 0 0-.487-.065c-.615 0-1.124.335-1.328.873a1.4 1.4 0 0 0 .067 1.161c.136.256.352.486.66.701.082.058.21.14.371.246l.339.221a.4.4 0 0 1 .109.11c.026.053.027.11-.012.217a3.4 3.4 0 0 1-.295.52c-.398.583-.968 1.077-1.696 1.472-.385.204-.786.34-.955.8-.128.348-.044.743.28 1.075q.18.189.409.31a4.4 4.4 0 0 0 1 .4.7.7 0 0 1 .202.09c.118.104.102.26.259.488q.12.178.296.3c.33.229.701.243 1.095.258.355.014.758.03 1.217.18.19.064.389.186.618.328.55.338 1.305.802 2.566.802 1.262 0 2.02-.466 2.576-.806.227-.14.424-.26.609-.321.46-.152.863-.168 1.218-.181.393-.015.764-.03 1.095-.258a1.14 1.14 0 0 0 .336-.368c.114-.192.11-.327.217-.42a.6.6 0 0 1 .19-.087 4.5 4.5 0 0 0 1.014-.404c.16-.087.306-.2.429-.336l.004-.005c.304-.325.38-.709.256-1.047m-1.121.602c-.684.378-1.139.337-1.493.565-.3.193-.122.61-.34.76-.269.186-1.061-.012-2.085.326-.845.279-1.384 1.082-2.903 1.082s-2.045-.801-2.904-1.084c-1.022-.338-1.816-.14-2.084-.325-.218-.15-.041-.568-.341-.761-.354-.228-.809-.187-1.492-.563-.436-.24-.189-.39-.044-.46 2.478-1.199 2.873-3.05 2.89-3.188.022-.166.045-.297-.138-.466-.177-.164-.962-.65-1.18-.802-.36-.252-.52-.503-.402-.812.082-.214.281-.295.49-.295a1 1 0 0 1 .197.022c.396.086.78.285 1.002.338q.04.01.082.011c.118 0 .16-.06.152-.195-.026-.433-.087-1.277-.019-2.066.094-1.084.444-1.622.859-2.097.2-.229 1.137-1.22 2.93-1.22 1.792 0 2.732.987 2.931 1.215.416.475.766 1.013.859 2.098.068.788.009 1.632-.019 2.065-.01.142.034.195.152.195a.4.4 0 0 0 .082-.01c.222-.054.607-.253 1.002-.338a1 1 0 0 1 .197-.023c.21 0 .409.082.49.295.117.309-.04.56-.401.812-.218.152-1.003.638-1.18.802-.184.169-.16.3-.139.466.018.14.413 1.991 2.89 3.189.147.073.394.222-.041.464" />
+          </svg></a>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+
+
+  <footer>
+    <div class="container">
+      <div class="footer_nav mb-2">
+        <a href="#welcome" class="footer_link text-black fw-bold">home</a>
+        <a href="#about" class="footer_link text-black fw-bold">about</a>
+        <a href="#skills" class="footer_link text-black fw-bold">skills</a>
+        <a href="#work" class="footer_link text-black fw-bold">work</a>
+        <a href="#" class="footer_link text-black fw-bold">blog</a>
+        <a href="#contact" class="footer_link text-black fw-bold">contact</a>
+      </div>
+      <p class="hero_title text-center text-black fw-bold">Batyr Velsahedov</p>
+      <p class="text center text-center text-black fw-bold">&#169Copyright 2023 <br>
+        All rights reserved. Powered by the Velsa</p>
+    </div>
+  </footer>
+
+
+</body>
+
+<script src="assets/js/script.js"></script>
+
+</html>
